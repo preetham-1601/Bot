@@ -21,3 +21,7 @@ Students studying in educational institutions or students who wants to join some
 
 ### Published bot to Azure from Composer
 Plublished Bot From Composer to Azure And deployed it using embeded code using channels from webchat and direct line to google sites.
+
+### Bot ScreenShoots
+<img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(297).png">     <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(298).png">   <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(299).png">  <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(300).png">    <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(301).png">    <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(302).png">  <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(303).png">     <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(304).png">    <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(305).png">   <img width="400" src="https://github.com/preetham-1601/Bot/blob/master/Screenshot%20(306).png">
+
