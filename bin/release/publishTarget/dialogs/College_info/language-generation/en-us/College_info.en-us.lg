@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_e37xX0()
+[Activity
+    Text = ${SendActivity_e37xX0_text()}
+]
+
+# SendActivity_e37xX0_text()
+- Methodist College of Engineering & Technology is a Non-Minority Educational institution, established in the year 2008, over 6.53 acre sprawling campus, situated at Abids, in the heart of the city of pearls, Hyderabad (Capital city of Telangana state). The college is well connected by public transport from every corner of the city. MCET is affiliated to Osmania University at the state level and with AICTE in the Central level.
+# SendActivity_unBPsk()
+[Activity
+    Text = ${SendActivity_unBPsk_text()}
+]
+
+# SendActivity_unBPsk_text()
+- For Further clear information go through: https://methodist.edu.in/about-methodist-college.php

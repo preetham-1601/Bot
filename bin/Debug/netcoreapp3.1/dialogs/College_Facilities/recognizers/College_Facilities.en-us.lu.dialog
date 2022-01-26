@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_College_Facilities",
+  "applicationId": "=settings.luis.College_Facilities_en_us_lu.appId",
+  "version": "=settings.luis.College_Facilities_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

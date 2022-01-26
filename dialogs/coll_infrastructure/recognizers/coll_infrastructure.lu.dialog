@@ -1,0 +1,5 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_coll_infrastructure",
+  "recognizers": {}
+}

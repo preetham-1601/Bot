@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_qZBNm5()
+[Activity
+    Text = ${SendActivity_qZBNm5_text()}
+]
+
+# SendActivity_qZBNm5_text()
+- You can go to our research and developement sector : https://methodist.edu.in/rd_aboutus.php

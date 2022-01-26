@@ -1,0 +1,13 @@
+{
+  "profileName": "Bot1",
+  "jobId": "6c2a9c2e-e883-4cb0-8a95-2a434578a38d",
+  "projectId": "13958.732500744152",
+  "time": "2022-01-25T08:28:34.270Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: AzurePrProjects at eastus",
+    "Deploying QnA Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

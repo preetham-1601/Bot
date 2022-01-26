@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "t3GLen",
+    "name": "Coll_Accommodation",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "knTGPq"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "4G3r9O"
+          },
+          "activity": "${SendActivity_4G3r9O()}"
+        }
+      ]
+    }
+  ],
+  "generator": "Coll_Accommodation.lg",
+  "recognizer": "Coll_Accommodation.lu.qna",
+  "id": "Coll_Accommodation"
+}

@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "jy9VOW",
+    "name": "Coll_Researches",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "IhVmVM"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "qZBNm5"
+          },
+          "activity": "${SendActivity_qZBNm5()}"
+        }
+      ]
+    }
+  ],
+  "generator": "Coll_Researches.lg",
+  "recognizer": "Coll_Researches.lu.qna",
+  "id": "Coll_Researches"
+}

@@ -1,0 +1,46 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "PThfKK",
+    "name": "College_Facilities",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "UHCf3J"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "wQf5CG"
+          },
+          "activity": "${SendActivity_wQf5CG()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "3qpv7q"
+          },
+          "activity": "${SendActivity_3qpv7q()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "qkxUTj"
+          },
+          "activity": "${SendActivity_qkxUTj()}"
+        }
+      ]
+    }
+  ],
+  "generator": "College_Facilities.lg",
+  "recognizer": "College_Facilities.lu.qna",
+  "id": "College_Facilities"
+}

@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_QvnEAP()
+[Activity
+    Text = ${SendActivity_QvnEAP_text()}
+]
+
+# SendActivity_QvnEAP_text()
+- The physical facilities such as Laboratories, Classrooms, Library and Sports Complex are maintained by House Keeping under the supervision of Non-teaching Staff / Floor Supervisors. Utilization of the classrooms is facilitated to the students in working days and it is also made available to the other governmental / non-governmental organizations for conducting exams in Vacations and Leave time. The masonry and plumbing works are carried out with local skilled persons and the expenditure is incurred from Maintenance. Lab equipment are serviced by manufacturers and service personnel during summer / winter vacations. Stock registers are maintained regularly.

@@ -1,0 +1,43 @@
+{
+  "Bot.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "AboutCollege": [
+        "College_info.en-us"
+      ],
+      "Facilities": [
+        "College_Facilities.en-us"
+      ],
+      "Placements": [
+        "College_placements.en-us"
+      ],
+      "Cancel": [
+        "CancelDialog.en-us"
+      ],
+      "Help": [
+        "HelpDialog.en-us"
+      ],
+      "Infrastructure": [
+        "coll_infrastructure.en-us"
+      ],
+      "Accommodation": [
+        "Coll_Accommodation.en-us"
+      ],
+      "Research": [
+        "Coll_Researches.en-us"
+      ],
+      "Studentsclubs": [
+        "Coll_StudClubs.en-us"
+      ],
+      "Academics": [
+        "Coll_Academics.en-us"
+      ],
+      "Departments": [
+        "Coll_Departments.en-us"
+      ],
+      "Campuslife": [
+        "Coll_Campuslife.en-us"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Aulvda",
+    "name": "Coll_StudClubs",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "tCadJw"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "zsMBTL"
+          },
+          "activity": "${SendActivity_zsMBTL()}"
+        }
+      ]
+    }
+  ],
+  "generator": "Coll_StudClubs.lg",
+  "recognizer": "Coll_StudClubs.lu.qna",
+  "id": "Coll_StudClubs"
+}

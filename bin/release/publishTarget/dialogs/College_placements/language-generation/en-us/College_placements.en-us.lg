@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_dRWDOO()
+[Activity
+    Text = ${SendActivity_dRWDOO_text()}
+]
+
+# SendActivity_dRWDOO_text()
+- Various Companies and many students placed into those companies: https://methodist.edu.in/placement-stats.php

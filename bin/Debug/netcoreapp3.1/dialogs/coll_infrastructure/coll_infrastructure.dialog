@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "cDczwx",
+    "name": "coll_infrastructure",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "6gVnUn"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "QvnEAP"
+          },
+          "activity": "${SendActivity_QvnEAP()}"
+        }
+      ]
+    }
+  ],
+  "generator": "coll_infrastructure.lg",
+  "recognizer": "coll_infrastructure.lu.qna",
+  "id": "coll_infrastructure"
+}

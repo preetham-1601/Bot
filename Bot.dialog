@@ -1,0 +1,297 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "Bot",
+    "description": "",
+    "id": "A79tBe"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720",
+        "comment": "This trigger runs when a conversation update activity is sent to the bot. This indicates a user or bot being added or removed from a conversation."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item",
+            "comment": "For each member added to the conversation."
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else",
+                "comment": "Checks that that member added ID does not match the bot ID. This prevents the greeting message from being sent when the bot is added to a conversation."
+              },
+              "condition": "=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "859266",
+                    "name": "Send a response"
+                  },
+                  "activity": "${SendActivity_Greeting()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "SuYZvb"
+                  },
+                  "activity": "${SendActivity_SuYZvb()}"
+                }
+              ]
+            }
+          ],
+          "value": "dialog.foreach.value",
+          "index": "dialog.foreach.index"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "mb2n1u",
+        "comment": "This trigger fires when an incoming activity is not handled by any other trigger."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "kMjqz1",
+            "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message."
+          },
+          "activity": "${SendActivity_DidNotUnderstand()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "ERqTij",
+        "name": "AboutCollege"
+      },
+      "intent": "AboutCollege",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "I4vKFU"
+          },
+          "activityProcessed": true,
+          "dialog": "College_info"
+        }
+      ],
+      "entities": []
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "OURgJn",
+        "name": "Facilities"
+      },
+      "intent": "Facilities",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "hNMOeI"
+          },
+          "activityProcessed": true,
+          "dialog": "College_Facilities"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "R89vgM",
+        "name": "Placements"
+      },
+      "intent": "Placements",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "4JHnTf"
+          },
+          "activityProcessed": true,
+          "dialog": "College_placements"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "sxoR25",
+        "name": "Cancel"
+      },
+      "intent": "Cancel",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Zoa4ZQ"
+          },
+          "activityProcessed": true,
+          "dialog": "CancelDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "aerHlK",
+        "name": "Help"
+      },
+      "intent": "Help",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "5o0AxY"
+          },
+          "activityProcessed": true,
+          "dialog": "HelpDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "PN30B3",
+        "name": "Infrastructure"
+      },
+      "intent": "Infrastructure",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "OHrHhI"
+          },
+          "activityProcessed": true,
+          "dialog": "coll_infrastructure"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "trqpVY",
+        "name": "Accommodation"
+      },
+      "intent": "Accommodation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "8KLzot"
+          },
+          "activityProcessed": true,
+          "dialog": "Coll_Accommodation"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "kEf0J8",
+        "name": "Research"
+      },
+      "intent": "Research",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "MGCVHu"
+          },
+          "activityProcessed": true,
+          "dialog": "Coll_Researches"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "UiskJa",
+        "name": "Studentsclubs"
+      },
+      "intent": "Studentsclubs",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "nRjRDQ"
+          },
+          "activityProcessed": true,
+          "dialog": "Coll_StudClubs"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "v898wZ",
+        "name": "Academics"
+      },
+      "intent": "Academics",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "WPxhwX"
+          },
+          "activityProcessed": true,
+          "dialog": "Coll_Academics"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "iSMLQR",
+        "name": "Departments"
+      },
+      "intent": "Departments",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "eywic8"
+          },
+          "activityProcessed": true,
+          "dialog": "Coll_Departments"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "jaOzjE",
+        "name": "Campuslife"
+      },
+      "intent": "Campuslife",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "tqqlZj"
+          },
+          "activityProcessed": true,
+          "dialog": "Coll_Campuslife"
+        }
+      ]
+    }
+  ],
+  "generator": "Bot.lg",
+  "id": "Bot",
+  "recognizer": "Bot.lu.qna"
+}

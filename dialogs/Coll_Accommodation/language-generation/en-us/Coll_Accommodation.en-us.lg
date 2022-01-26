@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_4G3r9O()
+[Activity
+    Text = ${SendActivity_4G3r9O_text()}
+]
+
+# SendActivity_4G3r9O_text()
+- About the Accommodation at college we are not providing this facilities for now but there are various privative rooms available with afordable costs near the institution.

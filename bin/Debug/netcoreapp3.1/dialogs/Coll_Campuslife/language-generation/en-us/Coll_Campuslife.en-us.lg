@@ -1,0 +1,17 @@
+[import](common.lg)
+
+
+# SendActivity_Sy5bZv()
+[Activity
+    Text = ${SendActivity_Sy5bZv_text()}
+]
+
+# SendActivity_Sy5bZv_text()
+- This provides the overal institute manual: https://methodist.edu.in/institute_manual.php
+# SendActivity_tQZs2o()
+[Activity
+    Text = ${SendActivity_tQZs2o_text()}
+]
+
+# SendActivity_tQZs2o_text()
+- where as we also have about the library and computer lab facilities and wifi all over the campus : https://methodist.edu.in/library-methodist.php https://methodist.edu.in/computers-methodist.php

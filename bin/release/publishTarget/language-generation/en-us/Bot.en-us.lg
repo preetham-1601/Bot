@@ -1,0 +1,30 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to Methodist College of Engineering and Technology, I am Meth a chat bot😊
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# SendActivity_SuYZvb()
+[Activity
+    Attachments = ${SendActivity_SuYZvb_attachment_UwUm9p()}
+]
+
+# SendActivity_SuYZvb_attachment_UwUm9p()
+[HeroCard
+  
+  images = https://methodist.edu.in/images/logo-wide.png
+  buttons = ${['About College','Facilities','Infrastructure','Accommodation','Placements','Researches','Student clubs and commities','Academics'
+  ,'Departments','Campus life']}
+]
+
+

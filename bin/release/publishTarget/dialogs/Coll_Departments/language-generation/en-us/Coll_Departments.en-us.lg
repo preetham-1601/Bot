@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_4xf7TT()
+[Activity
+    Text = ${SendActivity_4xf7TT_text()}
+]
+
+# SendActivity_4xf7TT_text()
+- ```1. Civil Engineering
+2. Computer Science and Engineering
+3. Artificial intelligence and Data Science
+4. Electronics and Communication Engineering
+5. Electrical and Electronics Engineering
+6. Mechanical Engineering
+7. Business Management(MBA)
+8. Humanities and Science```

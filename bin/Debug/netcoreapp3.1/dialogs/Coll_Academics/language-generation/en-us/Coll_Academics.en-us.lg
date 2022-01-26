@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_0CvhcR()
+[Activity
+    Text = ${SendActivity_0CvhcR_text()}
+]
+
+# SendActivity_0CvhcR_text()
+- Along with acadamic calender regulations and syllabus all the course work is seen in this : https://methodist.edu.in/academic-methodist.php?eventid=Course%20Structure%20and%20Syllabus

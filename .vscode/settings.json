@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d8f8f864-c199-48fe-bcbd-ab28bb3ebe50/resourceGroups/AzurePrProjects/providers/Microsoft.Web/sites/BotAz",
+    "appService.deploySubpath": "."
+}

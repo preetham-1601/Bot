@@ -1,0 +1,28 @@
+[import](common.lg)
+
+
+# SendActivity_3qpv7q()
+[Activity
+    Text = ${SendActivity_3qpv7q_text()}
+]
+
+# SendActivity_3qpv7q_text()
+- You can go for student facilities :https://methodist.edu.in/student-facilities-methodist.php 
+# SendActivity_qkxUTj()
+[Activity
+    Text = ${SendActivity_qkxUTj_text()}
+]
+
+# SendActivity_qkxUTj_text()
+- You can go for IT Facilities here: https://methodist.edu.in/it-facilities.php
+# SendActivity_wQf5CG()
+[Activity
+    Attachments = ${SendActivity_wQf5CG_attachment_hfIOs6()}
+]
+
+# SendActivity_wQf5CG_attachment_hfIOs6()
+[HeroCard
+  
+  images = https://methodist.edu.in/images/slider8.jpg
+  
+]

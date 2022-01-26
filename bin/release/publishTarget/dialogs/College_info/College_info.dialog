@@ -1,0 +1,39 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "9nkhr4",
+    "name": "College_info",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "sPKcbf"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "e37xX0"
+          },
+          "activity": "${SendActivity_e37xX0()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "unBPsk"
+          },
+          "activity": "${SendActivity_unBPsk()}"
+        }
+      ]
+    }
+  ],
+  "generator": "College_info.lg",
+  "recognizer": "College_info.lu.qna",
+  "id": "College_info"
+}

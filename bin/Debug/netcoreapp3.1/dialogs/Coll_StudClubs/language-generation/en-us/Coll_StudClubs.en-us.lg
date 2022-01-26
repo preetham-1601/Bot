@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_zsMBTL()
+[Activity
+    Text = ${SendActivity_zsMBTL_text()}
+]
+
+# SendActivity_zsMBTL_text()
+- https://methodist.edu.in/committees-methodist.php
